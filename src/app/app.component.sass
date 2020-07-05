@@ -1,0 +1,78 @@
+$toolbar-color: #4dd8ff
+$footer-color: #007a87
+$background-color: #0f0019
+$main-text-color: #0f0019
+
+.header 
+  position: absolute
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0
+  width: 100%
+  height: 430px
+  background: $toolbar-color
+  z-index: 0
+  transform: skewY(4deg)
+  transform-origin: top right
+  // border-image: linear-gradient(to bottom,red,rgba(0, 0, 0, 0)) 1 100%
+  // background: linear-gradient(170deg,$toolbar-color, rgba(0, 0, 0, 0))
+
+.introduction
+  position: absolute
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0
+  width: 100%
+  height: 45%
+  align-items: center
+  text-align: center
+
+.img-circle 
+  border-radius: 50%
+  border: 1px solid $footer-color
+  -webkit-box-shadow: 0px 0px 100px 0px $toolbar-color 
+  -moz-box-shadow: 0px 0px 100px 0px $toolbar-color
+  box-shadow: 0px 0px 100px 0px $toolbar-color
+
+  // .footer-f 
+  //   position: absolute
+  //   top: 500px
+  //   bottom: 0
+  //   right: 0
+  //   left: 0
+  //   width: 100%
+  //   height: 300px
+  //   background: $footer-color
+  //   z-index: 0
+  //   transform: skewY(4deg)
+  //   transform-origin: top rigth
+    // color: White
+    // text-align: center
+
+.footer 
+  position: relative
+  margin-top: 700px
+  bottom: 0
+  width: 100%
+  height: 350px
+  color: white
+  text-align: center
+  background: $footer-color
+  z-index: 0
+  transform: skewY(-4deg)
+  transform-origin: top rigth
+
+  
+/* unvisited link */
+a:link
+  text-decoration: none
+
+/* visited link */
+a:visited
+  color: $main-text-color
+
+/* mouse over link */
+a:hover
+  text-decoration: underline
