@@ -4,9 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href https://Sergi0Martin.github.io/SMartin/",
-    "deploy": "angular-cli-ghpages -d dist/SmartinWeb/ --no-silent",
-    "deploy-web": "git push origin `git subtree split --prefix dist master`:gh-pages --force",
+    "build": "ng build",
+    "deploy-web": "ng build --prod --base-href https://Sergi0Martin.github.io/SMartin/ && angular-cli-ghpages -d dist/SmartinWeb/ --no-silent",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -33,7 +32,6 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0-next.1",
-    "husky": "^4.2.5",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
@@ -45,10 +43,5 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build"
-    }
   }
 }
