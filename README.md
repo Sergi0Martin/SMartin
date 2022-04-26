@@ -1,6 +1,6 @@
 # SmartinWeb
 
-[![Angular GitHub CI](https://github.com/Sergi0Martin/SMartin/actions/workflows/npm-publish-github-packages.yml/badge.svg?branch=master&event=deployment_status)](https://github.com/Sergi0Martin/SMartin/actions/workflows/npm-publish-github-packages.yml)
+[![Angular GitHub CI](https://github.com/Sergi0Martin/SMartin/actions/workflows/angular-github-ci.yml/badge.svg?branch=master&event=deployment_status)](https://github.com/Sergi0Martin/SMartin/actions/workflows/angular-github-ci.yml)
 
 
 ## Deploy  GitHub Page
