@@ -3,6 +3,7 @@
 [![Angular GitHub CI](https://github.com/Sergi0Martin/SMartin/actions/workflows/angular-github-ci.yml/badge.svg?branch=master&event=deployment_status)](https://github.com/Sergi0Martin/SMartin/actions/workflows/angular-github-ci.yml)
 
 
+
 ## Deploy  GitHub Page
 1 - You just need a github repository to host on github and make sure that you pushed the latest code.
 
