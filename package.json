@@ -6,7 +6,6 @@
     "start": "ng serve",
     "build": "ng build",
     "build-prod": "ng build --configuration production --base-href https://Sergi0Martin.github.io/SMartin/",
-    "deploy": "ng deploy --configuration production --base-href=/SMartin/ --no-silent",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
