@@ -120,12 +120,22 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy"
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "defaultProject": "SmartinWeb",
   "cli": {
-    "analytics": "c4dc15c5-98d4-4833-bc9f-1ace3e7c80a9"
+    "analytics": "c4dc15c5-98d4-4833-bc9f-1ace3e7c80a9",
+    "defaultCollection": "@angular-eslint/schematics"
   }
 }
