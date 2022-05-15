@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy-web": "ng build --configuration production --base-href https://Sergi0Martin.github.io/SMartin/ && angular-cli-ghpages -d dist/SmartinWeb/ --no-silent",
-    "deploy": "ng deploy --base-href=/SMartin/ --no-silent",
+    "build-prod": "ng build --configuration production --base-href https://Sergi0Martin.github.io/SMartin/",
+    "deploy": "ng deploy --configuration production --base-href=/SMartin/ --no-silent",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -41,7 +41,6 @@
     "@types/node": "^12.11.1",
     "@typescript-eslint/eslint-plugin": "5.17.0",
     "@typescript-eslint/parser": "5.17.0",
-    "angular-cli-ghpages": "^1.0.0",
     "codelyzer": "^6.0.0",
     "eslint": "^8.12.0",
     "jasmine-core": "~3.6.0",
